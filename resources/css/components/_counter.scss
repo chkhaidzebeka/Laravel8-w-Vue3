@@ -1,0 +1,10 @@
+.counter {
+    .btn {
+        all: unset;
+        border: 1px solid rgb(144, 144, 182);
+        padding: 5px 10px;
+        color: $light-white;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+}

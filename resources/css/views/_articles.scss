@@ -1,0 +1,11 @@
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+    font-family: sans-serif;
+
+    @include breakpoint-to-down(md) {
+        grid-template-columns: 1fr;
+    }
+}

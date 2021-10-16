@@ -1,0 +1,19 @@
+@use "./abstract/variables" as *;
+@use "./abstract/mixins" as *;
+@import "./reset";
+
+@import "./components/section-title";
+@import "./components/counter";
+@import "./views/articles";
+
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.d-flex {
+    display: flex;
+}
